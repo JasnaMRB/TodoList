@@ -11,8 +11,6 @@ angular.module('yeomancodelabApp')
     .controller('MainCtrl', function ($scope, localStorageService) {
 
         var todosInStore = localStorageService.get('todos');
-        
-        console.log($route)
 
         $scope.todos = todosInStore || [];
 
