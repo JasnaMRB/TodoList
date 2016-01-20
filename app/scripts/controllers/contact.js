@@ -8,5 +8,5 @@
  * Controller of the yeomancodelabApp
  */
 angular.module('yeomancodelabApp')
-  .controller('AboutCtrl', function () {
+  .controller('ContactCtrl', function () {
   });
